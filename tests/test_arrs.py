@@ -9,3 +9,5 @@ def test_get():
 def test_my_slice():
     assert arrs.my_slice([1, 2, 3, 4, 5], 1, 3) == [2, 3]
     assert arrs.my_slice([1, 2, 3, 4, 5], 2, 4) == [3, 4]
+    assert arrs.my_slice([1, 2, 3, 4, 5], 2, 4) == [3, 4]
+
